@@ -1,12 +1,15 @@
 # vue2-bootstrap
 vue create vue2-bootstrap
+
 cd vue2-bootstrap
 
 https://www.digitalocean.com/community/tutorials/vuejs-using-bootstrap4
 
 npm install --save @popperjs/core
+
 npm install bootstrap@4.6.0 bootstrap-vue@2.21.2
 
+## Edit main.js
 ```
 import Vue from 'vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -26,8 +29,8 @@ new Vue({
 ```
 
 vue add router
-vue add electron-builder
 
+vue add electron-builder
 
 ## Project setup
 ```
